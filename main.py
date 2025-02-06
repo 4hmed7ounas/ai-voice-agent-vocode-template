@@ -81,6 +81,7 @@ AGENT_CONFIG = ChatGPTAgentConfig(
   initial_message=BaseMessage(text="Hello, who am I talking to?"),
   prompt_preamble=get_assistant_instructions(),
   generate_responses=True,
+  model_name="gpt-3.5-turbo",
 )
 
 # Now we'll give our agent a voice and ears.
